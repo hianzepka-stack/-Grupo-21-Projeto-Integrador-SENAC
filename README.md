@@ -1,0 +1,31 @@
+1. Tema do Projeto e Integrantes
+Título do Projeto: [Defina um nome criativo ou descritivo]
+
+Integrantes do Grupo:
+
+Caio Costa
+
+Danylo
+
+Eduardo
+
+Rafinha
+
+Stephanie
+
+2. Objetivo da Análise
+Contexto: Explique o problema ou a situação que vocês estão analisando.
+
+Base de Dados: Descreva de onde os dados vêm (ex: Kaggle, portal do governo, dados da empresa) e o que eles representam.
+
+3. Planejamento das Tarefas
+Crie uma tabela simples dividindo as responsabilidades:
+
+Exemplo: Integrante A (Coleta de dados), Integrante B (Limpeza/Transformação), Integrante C (Criação do Dashboard).
+
+Cronograma: Defina datas para a entrega final e marcos intermediários.
+
+4. Ideia Inicial do Dashboard
+Transformações: O que vocês pretendem mudar nos dados? (ex: filtrar datas, converter moedas, agrupar categorias).
+
+Métricas e Visualizações: Quais gráficos pretendem usar? (ex: Gráfico de barras para vendas por mês, mapa de calor para localização, KPIs de faturamento total).
