@@ -13,6 +13,8 @@ Rafinha
 
 Stephanie
 
+Fernanda
+
 2. Estrutura do Repositório:
 
 data/: Reservada para armazenar os arquivos de dados brutos (CSV, Excel, JSON). É aqui que colocaremos a base de dados escolhida.
