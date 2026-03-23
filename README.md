@@ -1,8 +1,7 @@
 1. Tema do Projeto e Integrantes
-Título do Projeto: [Defina um nome criativo ou descritivo]
+Título do Projeto: Tempo excessivo de tela e a falta de sono
 
 Integrantes do Grupo:
-
 
 Caio Costa Josino
 
@@ -20,11 +19,13 @@ Stephanie Souza dos Reis
 
 2. Estrutura do Repositório:
 
-data/: Reservada para armazenar os arquivos de dados brutos (CSV, Excel, JSON). É aqui que colocaremos a base de dados escolhida.
+data/: Reservada para armazenar os arquivos de dados brutos (CSV). É aqui que colocaremos a base de dados escolhida.
 
 docs/: Espaço para documentação complementar, como o roteiro do projeto, imagens de referência e capturas de tela do dashboard final.
 
 src/: Destinada aos arquivos de configuração ou scripts da ferramenta Low Code que utilizaremos para a análise.
+
+app/: dashboard
 
 3. Objetivo da Análise
 Entender como o tempo excessivo de tela e a falta de sono afetam o estresse dos indivíduos.
@@ -34,24 +35,23 @@ Base de Dados: Sleep, Screen Time and Stress Analysis
 
 O dataset contém 15.000 registros sintéticos que exploram a relação entre tempo de tela no celular, qualidade do sono e níveis de estresse em pessoas com diferentes estilos de vida e ocupações.
 
-4. Planejamento das Tarefas
-Caio Costa Josino: 
+4. Planejamento das Tarefas e Cronograma
+O grupo se comunicou pelo whatsapp e nos organizamos conformes tarefas abaixo:
 
-Carlos Eduardo Moraes Souza: 
+# Cronograma
 
-Danylo Marques Ferreira: Objetivo e descrição
+| Data / Período       | Atividade                                                                 | Responsável                  |
+|----------------------|---------------------------------------------------------------------------|------------------------------|
+| *10/03*              | Apresentação do projeto pela professora                                   | Todos                        |
+| *11/03 – 20/03*      | Discussões iniciais pelo WhatsApp, escolha do tema e da base de dados     | Todos                        |
+| *15/03 – 21/03*      | Criação do grupo no GitHub e estrutura de pastas e README                 | Hian Zepka                   |
+| *20/03 – 22/03*      | Finalização do objetivo, descrição, alimentação README                    | Danylo, Fernanda e Stephanie |
+| *21/03 – 23/03*      | Sugestão dos gráficos, métricas do dashboard                              | Caio, Carlos,  e Rafaela     |
+| *22/03 – 23/03*      | Últimos ajustes, revisão do README e entrega                              | Todos (Hian coordena)        |
 
-Fernanda Guimarães dos Santos: Escolha da base de dados
+**Prazo final de entrega:** 23/03/2026
 
-Hian Zepka: Responsável pela criação do grupo no github e criação da estrutura.
-
-Rafaela de Araujo Folha: 
-
-Stephanie Souza dos Reis: Escolha das métricas do dashboard
-
-Entrega de todas as tarefas até o dia 22/03/2026
-
-5. Ideia Inicial do Dashboard
+6. Ideia Inicial do Dashboard
 Métricas principais que vamos mostrar:
 - Média de tempo de tela por nível de estresse
 - Correlação entre horas de sono e estresse
