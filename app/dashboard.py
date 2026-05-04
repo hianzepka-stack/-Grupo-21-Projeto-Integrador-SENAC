@@ -4,11 +4,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 from pathlib import Path
-import os
 
-# Caminho absoluto para o arquivo de dados
-current_dir = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(os.path.dirname(current_dir), 'data', 'base_original.csv')
+DATA_PATH = Path(__file__).parent.parent / 'data' / 'base_original.csv'
 
 @st.cache_data
 def load_data(path: Path) -> pd.DataFrame:
@@ -223,7 +220,7 @@ if __name__ == '__main__':
 # ============ CÓDIGO DE teste.eduard.py ============
 
 # CARGA DO DADO TRATADO
-df_eduardo = pd.read_csv(DATA_PATH)
+df_eduardo = pd.read_csv('../data/base_original.csv')
 
 def prepare_stress_category_eduardo(df: pd.DataFrame) -> pd.DataFrame:
     bins = [0, 4, 7, 10]
