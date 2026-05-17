@@ -86,3 +86,7 @@ Planejamento do Processo de ETL
 
 Fluxo visual do processo:
 Extração → Limpeza → Criação de colunas → Análise básica → Arquivo limpo.
+
+O resultado do Processo de ETL está disponível no botão abaixo:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://9j9datenuf7xt8hzjdxfsj.streamlit.app/)
